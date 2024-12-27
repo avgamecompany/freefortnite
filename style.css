@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    box-shadow: 0 4px #999; /* Shadow for 3D effect */
+    transition: 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+    box-shadow: 0 8px #666; /* Deeper shadow on hover */
+    transform: translateY(-4px); /* Slight lift effect on hover */
+  }
+  
+  .button:active {
+    box-shadow: 0 2px #666; /* Lighter shadow on click */
+    transform: translateY(2px); /* Button 'press' effect */
+  }
+  
